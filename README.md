@@ -16,7 +16,9 @@ out_layer = 1
 nn = Sequential()
 
 nn.add(Dense(units=hidden_nodes_layer1, input_dim=number_input_features, activation="relu"))
+
 nn.add(Dense(units=hidden_nodes_layer2, activation="relu"))
+
 nn.add(Dense(units=out_layer, activation="linear"))
 
 The summary goes as followed
