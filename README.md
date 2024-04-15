@@ -6,9 +6,13 @@ The goal is create a neural network to predict the credit ranking of a person us
 
 The neural network goes as followed
 number_input_features = 11
+
 hidden_nodes_layer1 = 6
+
 hidden_nodes_layer2 = 3
+
 out_layer = 1
+
 nn = Sequential()
 
 nn.add(Dense(units=hidden_nodes_layer1, input_dim=number_input_features, activation="relu"))
