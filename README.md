@@ -22,6 +22,7 @@ nn.add(Dense(units=hidden_nodes_layer2, activation="relu"))
 nn.add(Dense(units=out_layer, activation="linear"))
 
 The summary goes as followed
+
 Model: "sequential_5"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
